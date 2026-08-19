@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_pe_crf_movel-mcp",
+  "title": "SEFAZ PE: Certidão de Regularidade Fiscal (Móvel)",
+  "description": "SEFAZ PE: Certificate de Regularidade Fiscal (Móvel), official-source lookup. Platform-hosted, pay p",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_pe_crf_movel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_pe_crf_movel"
+    }
+  ]
+}
